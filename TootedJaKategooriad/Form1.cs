@@ -37,8 +37,16 @@ namespace TootedJaKategooriad
                 if (category != null)
                 {
                     this._productsContext.Entry(category).Collection(e => e.Products).Load();
+                    this.DataGridViewProducts.DataSource = category.Products;
                 }
             }
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            this._productsContext!.SaveChanges();
+            this.DataGridViewCategories.Refresh();
+            this.DataGridViewProducts.Refresh();
         }
     }
 }

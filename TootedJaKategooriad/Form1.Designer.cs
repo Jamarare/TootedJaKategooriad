@@ -54,6 +54,7 @@
             buttonSave.TabIndex = 0;
             buttonSave.Text = "Salvesta";
             buttonSave.UseVisualStyleBackColor = true;
+            buttonSave.Click += buttonSave_Click;
             // 
             // DataGridViewCategories
             // 
