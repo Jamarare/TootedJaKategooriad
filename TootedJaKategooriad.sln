@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TootedJaKategooriad", "TootedJaKategooriad\TootedJaKategooriad.csproj", "{EF192ECB-8A3C-401A-9689-9C8F9EED191E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF192ECB-8A3C-401A-9689-9C8F9EED191E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF192ECB-8A3C-401A-9689-9C8F9EED191E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF192ECB-8A3C-401A-9689-9C8F9EED191E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF192ECB-8A3C-401A-9689-9C8F9EED191E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {215DD20C-F076-444F-8CD2-98CEF175E743}
+	EndGlobalSection
+EndGlobal
